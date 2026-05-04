@@ -32,7 +32,11 @@
 		default = "config-1";
 		config-1 {
 			description = "Boot with FPGA early IO release config";
-			fpga = "fpga-periph-1", "fpga-core-1";
+			fpga = "fpga-periph-1";
+		};
+		config-2 {
+			description = "Boot with FPGA (core) after DDR config";
+			fpga = "fpga-core-1";
 		};
 	};
 };
